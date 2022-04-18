@@ -1,1 +1,12 @@
-{}
+{
+    "chromeWebSecurity": false,
+    "viewportWidth": 1440,
+    "viewportHeight": 900,
+    "defaultCommandTimeout": 60000,
+    "baseUrl": "https://example.cypress.io/todo",
+    "env": {
+    },
+    "video":true, 
+    "trashAssetsBeforeRuns": true
+}
+
