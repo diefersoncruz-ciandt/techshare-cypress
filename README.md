@@ -13,14 +13,14 @@
 
 
 ## Pré-requisitos
-    * Possuir NodeJS instalado.
-        * Manual de instalação node: https://nodejs.org/en/
-    * Possuir Git instalado.
-        * Manual de instalação Git: https://git-scm.com/downloads
-    * Possuir cypress instalado.
-        * Manual de instalação Cypress: https://www.cypress.io/
-    * Possuir um editor de código (Visual Studio Code)
-        * Manual de instação VS Code: https://code.visualstudio.com/
+* Possuir NodeJS instalado.
+     - Manual de instalação node: https://nodejs.org/en/
+* Possuir Git instalado.
+    - Manual de instalação Git: https://git-scm.com/downloads
+* Possuir cypress instalado.
+    - Manual de instalação Cypress: https://www.cypress.io/
+* Possuir um editor de código (Visual Studio Code)
+    - Manual de instação VS Code: https://code.visualstudio.com/
 
 ## Instruções gerais
 Todo o conteúdo programático do TechShare está disponível no repositório do github https://github.com/diefersoncruz-ciandt/techshare-cypress. 
