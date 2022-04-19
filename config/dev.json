@@ -5,7 +5,9 @@
     "defaultCommandTimeout": 10000,
     "baseUrl": "http://aprendendotestar.com.br",
     "env": {
-        "urlApi": "http://api.openweathermap.org/geo/1.0/"
+        "urlApi": "http://api.openweathermap.org/geo/1.0/", 
+        "urlSSO":" https://www.sso-test.com", 
+        "acessToken": ""
     },
     "video":true, 
     "trashAssetsBeforeRuns": true

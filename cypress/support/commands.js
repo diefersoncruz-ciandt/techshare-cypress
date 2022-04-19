@@ -23,3 +23,20 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+Cypress.Commands.add('getAuthorizationTokenSSOApi', (user, password) => {
+    cy.request({
+      method: 'POST',
+      url: Cypress.env('urlSSO'),
+      form: true,
+      body: {
+        grant_type: 'password',
+        username: user,
+        password: password,
+        client_id: 'teste-teste',
+        client_secret: '0000000',
+      }
+    }).then((resp) => {
+      Cypress.env('acessToken', 'Bearer ' + resp.body.access_token);
+      expect(resp.status).to.eq(200);
+    });
+  });
