@@ -2,8 +2,8 @@
     "chromeWebSecurity": false,
     "viewportWidth": 1440,
     "viewportHeight": 900,
-    "defaultCommandTimeout": 60000,
-    "baseUrl": "https://example.cypress.io/todo",
+    "defaultCommandTimeout": 10000,
+    "baseUrl": "http://aprendendotestar.com.br",
     "env": {
     },
     "video":true, 
