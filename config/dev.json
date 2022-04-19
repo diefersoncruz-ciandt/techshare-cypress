@@ -5,6 +5,7 @@
     "defaultCommandTimeout": 10000,
     "baseUrl": "http://aprendendotestar.com.br",
     "env": {
+        "urlApi": "http://api.openweathermap.org/geo/1.0/"
     },
     "video":true, 
     "trashAssetsBeforeRuns": true
